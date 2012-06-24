@@ -1,4 +1,4 @@
 Attendance-Tracker
 ==================
 
-PSoC project
+PSoC project of Vikhyath, Sankarshan, Rohith
