@@ -1,0 +1,135 @@
+Proposal for Attendence Tracker
+
+
+
+
+NAMES :
+
+Vikyath Harekal 
+Rohith P 
+Sankarshan U Bhat
+
+
+
+Emails :
+
+harekal.vikyath@gmail.com 
+rohith.p22@gmail.com 
+sankarshanbhat@gmail.com
+
+
+
+Semesters :
+
+All of us are from 4th Semester PESIT-CS
+
+
+
+ABOUT YOUR PROJECT :
+
+The project involves having a place where the student can get all the statistics regarding the classes 
+he/she missed, whether it’s falling in the shortage zone etc. Updates for him/her once a fortnight or so. 
+Using technologies like textweb, we can also write scripts that alert a student once the percentage of 
+attendances falls under the requirements so that he/she can be more careful in the future
+
+
+
+GOAL :
+
+Complete the web-app and the mobile-app within the specified time 
+We will try to stick to the road map as much as possible 
+We will try to further improvise and also add extra features as we go on coding
+
+
+
+USE CASES :
+
+Provision for verification of attendence before internals and externals as well by the students online 
+This basically prevents paper work by each department for verification. 
+Since the attendence is taken and updated to the database as soon as the teacher cofirms 
+there is no need to update in the register as we will ensure that our web-app will be 
+secure and reliable
+
+
+
+EXPECTED RESULTS :
+
+A web app and mobile app/s that allow a student to track his attendance statistics at any time, 
+with additional features like attendance shortage alert.
+
+
+
+IDEAS AND IMPLEMENTATION :
+
+Basic Idea in a few words
+
+The Teacher has a mobile and he/she connects to the webiste which we are going to develop
+The website wil have a user friendly GUI and the teacher will update the attendence there
+After the teacher confirms about the attendence, it will automatically updated in the database maintained by us
+A restriction will be made so that only the teacher for that subject will be able to update attendence for that subject
+All the updates will be reflected in the website then and there and students can view it anytime
+As soon as the attendence percentage of a student falls in the shortage zone, a message will be sent to him/her regarding this
+Also a restricted access like a student can see only his attendence statistics can be implemented is necessary
+An extra provision can be made to alert the student before in hand that if he/she misses the next class, then he/she is
+going to end up in shortage zone for that particular subject (a boon for students)
+At the end, marks for attendence will be automatically calculated and displayed, with the following cut offs
+Attended more than 95% of the classes : 5 marks
+90%-95% : 4marks
+85%-90% : 3marks
+80%-85% : 2marks
+75%-80% : 1mark
+Below 75% : Shortage of Attendence, not allowed to write exams
+Messages will be sent automatically to Students and parents as : 
+1. Fortnightly updates 
+2. Warnings to those students who are in the shortage zone 
+3. Alerts to those students who might face shortage of attendence soon 
+This can be achieved by using txtweb like facilities
+An option to import input information from the Database as an Excel Document can also be implemented
+An additional option which displays number of classes the student has to attend to get required percentage can be added 
+so that students with genuine reasons for absence(illness and other major problems) can check it out
+Provision for verification of attendence before internals and externals as well by the students online
+Also Sessional attendence display can be linked to online notice board(if any), of respective department
+The teacher has the control over the maximum number of classes conducted for that subject, i.e, if the 
+portions are not completed, then he/she might take few extra classes
+The zones can be represented in terms of colors, as in 
+red color : shortage of attendence zone
+orange color : going to fall in the shortage zone
+green color : to indicate that the student has no attendence issues
+The main layout looks like
+
+Maximum number of classes 
+( which can be modified later by the teachers )	Number of classes conducted	Number of classes attended	Number of classes missed	Zone 
+( red|orange|green )	Attendence percentage
+
+
+
+ROAD MAP :
+
+Learn basics of CSS, JS and brush up with HTML5 and Python by 23rd june
+Start Coding and finish the basic layout of the app as required by the client ( college here ) by 30
+Integrating txtweb into the project and continue coding till 7 july
+Complete coding web app on july 14 ( Pre-Final )
+For the next week, one of us will be working on Debuging the code of web app and other two will be brushing 
+up a bit with Qt and j2me or some other platform i.e, till 21st july
+Start Coding for the mobile app and be done with the initial phase by 28th july
+Complete mobile app based on 1 platform on or before august 4th ( Pre_final )
+Complete mobile app based on 2nd platform on or before august 11th ( Pre_final )
+Debug codes of mobile apps, improve wherever possible and Finalize the project by 14th
+Submit the Project on 16 ( hopefully! ).
+
+
+ABOUT YOUR TEAM :
+
+Our team is basically a combination of skill and hardwork 
+All three of us are very keen on contributing to OpenSource ( or Free Software! ) 
+And also continue contributing to other global OpenSource projects even after the Summer Vacations.
+
+
+
+WHY YOU? :
+
+Enthusiasm is our strength. Eagerness to work and to contribute to OpenSource is our driving force. 
+We really wanted to contribute to OpenSource, but we didn't know how to get started 
+This PSoC will be like a stepping stone for us into the world of OpenSource. 
+We already started learning required skills like html and so we have the cofidence that we can do this project successfully
+
