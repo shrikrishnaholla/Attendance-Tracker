@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html manifest="demo.appcache" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="CoffeeCup HTML Editor (www.coffeecup.com)">
+    <meta name="created" content="Tue, 19 Jun 2012 05:53:03 GMT">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title></title>
+    
+    <style type="text/css">
+      body{background-color:#b0c4de;}
+      h1 {background-color:#6495ed;}
+      div {background-color:#b0c4de;} 
+      p.right {text-align:right;}
+    </style>
+  </head>
+
+  <body>
+    <img src="PESIT logo.jpg"  width="200" align="left" />
+    <font size = 10 />
+    <center>
+    <h1>Attendance Tracker</h1>
+    </center>
+    <br />
+    <font size = 5 />
+    <center>
+    </center>
+    <font size = 3 />
+    </body>
+</html>
+
