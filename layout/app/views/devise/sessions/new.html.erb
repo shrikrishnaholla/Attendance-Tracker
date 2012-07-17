@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html manifest="demo.appcache" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="CoffeeCup HTML Editor (www.coffeecup.com)">
+    <meta name="created" content="Tue, 19 Jun 2012 05:53:03 GMT">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title></title>
+    
+    <style type="text/css">
+      body{background-color:#b0c4de;}
+      h1 {background-color:#6495ed;}
+      div {background-color:#b0c4de;} 
+      p.right {text-align:right;}
+    </style>
+  </head>
+
+  <body>
+    <img src="PESIT logo.jpg"  width="200" align="left" />
+    <font size = 10 />
+    <center>
+    <h1>Attendance Tracker</h1>
+    </center>
+    <br />
+    <font size = 5 />
+    <center>
+    <font size = 3 />
+
+<%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
+
+  <div><%= f.label :USN %><br />  
+  <%= f.text_field :USN %></div>
+
+  <% if devise_mapping.rememberable? -%>
+    <div><%= f.check_box :remember_me %> <%= f.label :remember_me %></div>
+  <% end -%>
+
+  <div><%= f.submit "Sign in" %></div>
+<% end %>
+</center>
+<%= render "devise/shared/links" %>
